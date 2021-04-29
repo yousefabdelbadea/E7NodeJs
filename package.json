@@ -1,0 +1,25 @@
+{
+  "name": "e7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "start": "node index.js"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousefabdelbadea/E7NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yousefabdelbadea/E7NodeJs/issues"
+  },
+  "homepage": "https://github.com/yousefabdelbadea/E7NodeJs#readme"
+}

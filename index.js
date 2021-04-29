@@ -15,6 +15,10 @@ app.get('/api/courses', (req, res) => {
     res.send(courses);
 });
 
+app.get('/', (req, res) => {
+    res.sendfile('./index.html')
+});
+
 // api/courses/1 to get course of id 1
 app.get('/api/courses/:id', (req, res) => {
     const course = courses.find(c => c.id === parseInt(req.params.id));
