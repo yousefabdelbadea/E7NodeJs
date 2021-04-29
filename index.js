@@ -16,7 +16,16 @@ app.get('/api/courses', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.sendfile('./index.html')
+    res.send("Welcome In LMS");
+
+});
+
+app.get(' /web/students/create', (req, res) => {
+    res.sendfile('./StudentLMS.html')
+});
+
+app.get('/web/courses/create', (req, res) => {
+    res.sendfile('./CourseLMS.html')
 });
 
 // api/courses/1 to get course of id 1
