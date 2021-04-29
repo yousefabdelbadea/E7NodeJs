@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 });
 
-app.get(' /web/students/create', (req, res) => {
+app.get('/web/students/create', (req, res) => {
     res.sendfile('./StudentLMS.html')
 });
 
